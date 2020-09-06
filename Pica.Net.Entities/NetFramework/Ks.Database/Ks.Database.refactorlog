@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="08912083-8bae-467c-92ab-802298660d9c" ChangeDateTime="03/29/2020 21:16:03">
+    <Property Name="ElementName" Value="[dbo].[CustomerCategory].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CustomerCategory]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdCategoria" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2733a857-fb49-48ca-9299-b131bdb4cede" ChangeDateTime="03/29/2020 21:16:50">
+    <Property Name="ElementName" Value="[dbo].[CustomerCategory].[IdCategoria]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CustomerCategory]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdCategory" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="35bdfdf8-5510-468e-adfe-49b1537f071a" ChangeDateTime="03/29/2020 21:26:43">
+    <Property Name="ElementName" Value="[dbo].[CreditCards].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CreditCards]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CrediCardNumber" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="349da735-40b9-4248-81f6-b34c1b166670" ChangeDateTime="03/29/2020 21:33:59">
+    <Property Name="ElementName" Value="[dbo].[CreditCards].[Status]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CreditCards]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TypeCard" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="34b8969f-a890-4e56-adc3-94a07091512f" ChangeDateTime="03/29/2020 21:34:42">
+    <Property Name="ElementName" Value="[dbo].[CreditCards].[CodeVerification]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CreditCards]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CheckCode" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="53294ebe-a936-4d8b-aba2-95ead7f80778" ChangeDateTime="03/29/2020 21:35:08">
+    <Property Name="ElementName" Value="[dbo].[CreditCards].[DateEx]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CreditCards]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ExpirationDate" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e77dea3d-f6ef-4b51-ab65-c0d43a16529f" ChangeDateTime="03/29/2020 21:57:40">
+    <Property Name="ElementName" Value="[dbo].[Invoices].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Invoices]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdInvoince" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7a2b20b0-37c9-4df8-b241-e8c8855c59dc" ChangeDateTime="03/30/2020 02:51:52">
+    <Property Name="ElementName" Value="[dbo].[Items].[In]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Items]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdInvoince" />
+  </Operation>
+</Operations>

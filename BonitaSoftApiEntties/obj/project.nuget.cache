@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "zFIRfzcTpCRW+mIZEWkpSsdT2fMIikWKrCxIxdu3UdZGAtCCur1WiSYBWRqPhJ+XSwPd1qdULl4u241Vg8RSIg==",
+  "success": true,
+  "projectFilePath": "D:\\U\\Pika\\Proyecto\\Code\\bck\\BonitaSoftApiEntties\\BonitaSoftApiEntties.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Virko\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

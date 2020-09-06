@@ -1,0 +1,12 @@
+D:\U\Pika\Proyecto\Code\bck\BonitaSoftApiBusiness\bin\Release\netcoreapp3.1\BonitaSoftApiBusiness.deps.json
+D:\U\Pika\Proyecto\Code\bck\BonitaSoftApiBusiness\bin\Release\netcoreapp3.1\BonitaSoftApiBusiness.dll
+D:\U\Pika\Proyecto\Code\bck\BonitaSoftApiBusiness\bin\Release\netcoreapp3.1\BonitaSoftApiBusiness.pdb
+D:\U\Pika\Proyecto\Code\bck\BonitaSoftApiBusiness\bin\Release\netcoreapp3.1\BonitaSoftApiEntties.dll
+D:\U\Pika\Proyecto\Code\bck\BonitaSoftApiBusiness\bin\Release\netcoreapp3.1\BonitaSoftApiEntties.pdb
+D:\U\Pika\Proyecto\Code\bck\BonitaSoftApiBusiness\obj\Release\netcoreapp3.1\BonitaSoftApiBusiness.csprojAssemblyReference.cache
+D:\U\Pika\Proyecto\Code\bck\BonitaSoftApiBusiness\obj\Release\netcoreapp3.1\BonitaSoftApiBusiness.csproj.CoreCompileInputs.cache
+D:\U\Pika\Proyecto\Code\bck\BonitaSoftApiBusiness\obj\Release\netcoreapp3.1\BonitaSoftApiBusiness.AssemblyInfoInputs.cache
+D:\U\Pika\Proyecto\Code\bck\BonitaSoftApiBusiness\obj\Release\netcoreapp3.1\BonitaSoftApiBusiness.AssemblyInfo.cs
+D:\U\Pika\Proyecto\Code\bck\BonitaSoftApiBusiness\obj\Release\netcoreapp3.1\BonitaSoftApiBusiness.csproj.CopyComplete
+D:\U\Pika\Proyecto\Code\bck\BonitaSoftApiBusiness\obj\Release\netcoreapp3.1\BonitaSoftApiBusiness.dll
+D:\U\Pika\Proyecto\Code\bck\BonitaSoftApiBusiness\obj\Release\netcoreapp3.1\BonitaSoftApiBusiness.pdb

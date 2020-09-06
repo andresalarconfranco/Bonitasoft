@@ -1,0 +1,9 @@
+﻿CREATE TABLE [dbo].[Address](
+	[Street] [nchar](40) NULL,
+	[State] [nchar](40) NULL,
+	[Zip] [nchar](10) NULL,
+	[Country] [nchar](40) NULL,
+	[AddressType] [nchar](10) NULL,
+	[AddrId] [nvarchar](4000) NULL,
+	[City] [nchar](40) NULL
+) ON [PRIMARY]

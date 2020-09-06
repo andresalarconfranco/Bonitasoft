@@ -1,0 +1,17 @@
+D:\U\Pika\Proyecto\AzureCode\BonitaSoftApiEntties\bin\Debug\netcoreapp3.1\BonitaSoftApiEntties.deps.json
+D:\U\Pika\Proyecto\AzureCode\BonitaSoftApiEntties\bin\Debug\netcoreapp3.1\BonitaSoftApiEntties.dll
+D:\U\Pika\Proyecto\AzureCode\BonitaSoftApiEntties\obj\Debug\netcoreapp3.1\BonitaSoftApiEntties.AssemblyInfoInputs.cache
+D:\U\Pika\Proyecto\AzureCode\BonitaSoftApiEntties\obj\Debug\netcoreapp3.1\BonitaSoftApiEntties.AssemblyInfo.cs
+D:\U\Pika\Proyecto\AzureCode\BonitaSoftApiEntties\obj\Debug\netcoreapp3.1\BonitaSoftApiEntties.csproj.CoreCompileInputs.cache
+D:\U\Pika\Proyecto\AzureCode\BonitaSoftApiEntties\bin\Debug\netcoreapp3.1\BonitaSoftApiEntties.pdb
+D:\U\Pika\Proyecto\AzureCode\BonitaSoftApiEntties\obj\Debug\netcoreapp3.1\BonitaSoftApiEntties.dll
+D:\U\Pika\Proyecto\AzureCode\BonitaSoftApiEntties\obj\Debug\netcoreapp3.1\BonitaSoftApiEntties.pdb
+D:\U\Pika\Proyecto\Code\bck\BonitaSoftApiEntties\bin\Debug\netcoreapp3.1\BonitaSoftApiEntties.deps.json
+D:\U\Pika\Proyecto\Code\bck\BonitaSoftApiEntties\bin\Debug\netcoreapp3.1\BonitaSoftApiEntties.dll
+D:\U\Pika\Proyecto\Code\bck\BonitaSoftApiEntties\bin\Debug\netcoreapp3.1\BonitaSoftApiEntties.pdb
+D:\U\Pika\Proyecto\Code\bck\BonitaSoftApiEntties\obj\Debug\netcoreapp3.1\BonitaSoftApiEntties.csprojAssemblyReference.cache
+D:\U\Pika\Proyecto\Code\bck\BonitaSoftApiEntties\obj\Debug\netcoreapp3.1\BonitaSoftApiEntties.csproj.CoreCompileInputs.cache
+D:\U\Pika\Proyecto\Code\bck\BonitaSoftApiEntties\obj\Debug\netcoreapp3.1\BonitaSoftApiEntties.AssemblyInfoInputs.cache
+D:\U\Pika\Proyecto\Code\bck\BonitaSoftApiEntties\obj\Debug\netcoreapp3.1\BonitaSoftApiEntties.AssemblyInfo.cs
+D:\U\Pika\Proyecto\Code\bck\BonitaSoftApiEntties\obj\Debug\netcoreapp3.1\BonitaSoftApiEntties.dll
+D:\U\Pika\Proyecto\Code\bck\BonitaSoftApiEntties\obj\Debug\netcoreapp3.1\BonitaSoftApiEntties.pdb

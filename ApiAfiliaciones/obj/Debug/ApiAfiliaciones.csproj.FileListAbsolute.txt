@@ -1,0 +1,191 @@
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\ApiAfiliaciones.dll.config
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\ApiAfiliaciones.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\ApiAfiliaciones.pdb
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\csc.exe
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\csc.exe.config
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\csc.rsp
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\csi.exe
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\csi.exe.config
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\csi.rsp
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\Microsoft.Managed.Core.targets
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.AppContext.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.Collections.Immutable.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.Console.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.IO.Compression.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.IO.FileSystem.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.IO.Pipes.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.Reflection.Metadata.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.Security.AccessControl.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.Security.Claims.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.Security.Principal.Windows.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.ValueTuple.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.Xml.XmlDocument.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.Xml.XPath.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\vbc.exe
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\vbc.exe.config
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\vbc.rsp
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\VBCSCompiler.exe
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\VBCSCompiler.exe.config
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\Antlr3.Runtime.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\Microsoft.Web.Infrastructure.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\Newtonsoft.Json.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\System.Net.Http.Formatting.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\System.Web.Helpers.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\System.Web.Http.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\System.Web.Http.WebHost.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\System.Web.Mvc.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\System.Web.Optimization.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\System.Web.Razor.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\System.Web.WebPages.Deployment.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\System.Web.WebPages.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\System.Web.WebPages.Razor.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\WebGrease.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\Newtonsoft.Json.xml
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\System.Net.Http.Formatting.xml
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\System.Web.Helpers.xml
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\System.Web.Http.xml
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\System.Web.Http.WebHost.xml
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\System.Web.Mvc.xml
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\System.Web.Optimization.xml
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\System.Web.Razor.xml
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\System.Web.WebPages.xml
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\System.Web.WebPages.Deployment.xml
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\System.Web.WebPages.Razor.xml
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\Antlr3.Runtime.pdb
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\es\System.Net.Http.Formatting.resources.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\es\System.Web.Helpers.resources.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\es\System.Web.Http.resources.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\es\System.Web.Http.WebHost.resources.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\es\System.Web.Mvc.resources.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\es\System.Web.Optimization.resources.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\es\System.Web.Razor.resources.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\es\System.Web.WebPages.resources.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\obj\Debug\ApiAfiliaciones.csprojAssemblyReference.cache
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\obj\Debug\ApiAfiliaciones.csproj.CoreCompileInputs.cache
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\obj\Debug\ApiAfiliaciones.csproj.CopyComplete
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\obj\Debug\ApiAfiliaciones.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\obj\Debug\ApiAfiliaciones.pdb
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\EntityFramework.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\EntityFramework.SqlServer.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\EntityFramework.xml
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\ApiAfiliaciones\bin\EntityFramework.SqlServer.xml
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\ApiAfiliaciones.dll.config
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\ApiAfiliaciones.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\ApiAfiliaciones.pdb
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\csc.exe
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\csc.exe.config
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\csc.rsp
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\csi.exe
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\csi.exe.config
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\csi.rsp
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.AppContext.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.Console.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.IO.Compression.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.Security.Claims.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.ValueTuple.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\vbc.exe
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\vbc.exe.config
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\vbc.rsp
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\VBCSCompiler.exe
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\Antlr3.Runtime.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\EntityFramework.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\EntityFramework.SqlServer.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\Newtonsoft.Json.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\System.Net.Http.Formatting.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\System.Web.Helpers.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\System.Web.Http.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\System.Web.Http.WebHost.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\System.Web.Mvc.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\System.Web.Optimization.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\System.Web.Razor.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\System.Web.WebPages.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\System.Web.WebPages.Razor.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\WebGrease.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\EntityFramework.xml
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\EntityFramework.SqlServer.xml
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\Newtonsoft.Json.xml
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\System.Net.Http.Formatting.xml
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\System.Web.Helpers.xml
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\System.Web.Http.xml
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\System.Web.Http.WebHost.xml
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\System.Web.Mvc.xml
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\System.Web.Optimization.xml
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\System.Web.Razor.xml
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\System.Web.WebPages.xml
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\System.Web.WebPages.Razor.xml
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\Antlr3.Runtime.pdb
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\es\System.Web.Http.resources.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\es\System.Web.Razor.resources.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\obj\Debug\ApiAfiliaciones.csprojAssemblyReference.cache
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\obj\Debug\ApiAfiliaciones.csproj.CopyComplete
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\obj\Debug\ApiAfiliaciones.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\ApiAfiliaciones\obj\Debug\ApiAfiliaciones.pdb

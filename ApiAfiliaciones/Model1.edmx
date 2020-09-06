@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="AfiliacionesSkandiaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Afiliacion">
+          <Key>
+            <PropertyRef Name="IdAfiliacion" />
+          </Key>
+          <Property Name="IdAfiliacion" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="EstadoAfiliacion" Type="int" Nullable="false" />
+          <Property Name="IdCliente" Type="int" Nullable="false" />
+          <Property Name="Observaciones" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Cliente">
+          <Key>
+            <PropertyRef Name="IdCliente" />
+          </Key>
+          <Property Name="IdCliente" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NombresCliente" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="ApellidosCliente" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="TipoDocumento" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="NumeroDocumento" Type="nvarchar" MaxLength="15" Nullable="false" />
+          <Property Name="Ingresos" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Egresos" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="LugarNacimiento" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="FechaNacimiento" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Genero" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="EstadoCivil" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="CiudadResidencia" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="DepartamentoResidencia" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="DireccionResidencia" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Movil" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Discapacidad" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Evaluacion">
+          <Key>
+            <PropertyRef Name="IdEvaluacion" />
+          </Key>
+          <Property Name="IdEvaluacion" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Cifin" Type="char" MaxLength="1" Nullable="false" />
+          <Property Name="Sarlaft" Type="char" MaxLength="1" Nullable="false" />
+          <Property Name="UltimaEvaluacion" Type="date" Nullable="false" />
+          <Property Name="identificationNumber" Type="varchar" MaxLength="20" />
+          <Property Name="identificationType" Type="varchar" MaxLength="2" />
+        </EntityType>
+        <Association Name="FK_Afiliacion_Cliente1">
+          <End Role="Cliente" Type="Self.Cliente" Multiplicity="1" />
+          <End Role="Afiliacion" Type="Self.Afiliacion" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cliente">
+              <PropertyRef Name="IdCliente" />
+            </Principal>
+            <Dependent Role="Afiliacion">
+              <PropertyRef Name="IdCliente" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="AfiliacionesSkandiaModelStoreContainer">
+          <EntitySet Name="Afiliacion" EntityType="Self.Afiliacion" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Cliente" EntityType="Self.Cliente" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Evaluacion" EntityType="Self.Evaluacion" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_Afiliacion_Cliente1" Association="Self.FK_Afiliacion_Cliente1">
+            <End Role="Cliente" EntitySet="Cliente" />
+            <End Role="Afiliacion" EntitySet="Afiliacion" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="AfiliacionesSkandiaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="AfiliacionesSkandiaEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Afiliacion" EntityType="AfiliacionesSkandiaModel.Afiliacion" />
+          <EntitySet Name="Cliente" EntityType="AfiliacionesSkandiaModel.Cliente" />
+          <EntitySet Name="Evaluacion" EntityType="AfiliacionesSkandiaModel.Evaluacion" />
+          <AssociationSet Name="FK_Afiliacion_Cliente1" Association="AfiliacionesSkandiaModel.FK_Afiliacion_Cliente1">
+            <End Role="Cliente" EntitySet="Cliente" />
+            <End Role="Afiliacion" EntitySet="Afiliacion" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Afiliacion">
+          <Key>
+            <PropertyRef Name="IdAfiliacion" />
+          </Key>
+          <Property Name="IdAfiliacion" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="EstadoAfiliacion" Type="Int32" Nullable="false" />
+          <Property Name="IdCliente" Type="Int32" Nullable="false" />
+          <Property Name="Observaciones" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Cliente" Relationship="AfiliacionesSkandiaModel.FK_Afiliacion_Cliente1" FromRole="Afiliacion" ToRole="Cliente" />
+        </EntityType>
+        <EntityType Name="Cliente">
+          <Key>
+            <PropertyRef Name="IdCliente" />
+          </Key>
+          <Property Name="IdCliente" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NombresCliente" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="ApellidosCliente" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="TipoDocumento" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="NumeroDocumento" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="Ingresos" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Egresos" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="LugarNacimiento" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="FechaNacimiento" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Genero" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="EstadoCivil" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CiudadResidencia" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="DepartamentoResidencia" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Email" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="DireccionResidencia" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Movil" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Discapacidad" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Afiliacion" Relationship="AfiliacionesSkandiaModel.FK_Afiliacion_Cliente1" FromRole="Cliente" ToRole="Afiliacion" />
+        </EntityType>
+        <EntityType Name="Evaluacion">
+          <Key>
+            <PropertyRef Name="IdEvaluacion" />
+          </Key>
+          <Property Name="IdEvaluacion" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Cifin" Type="String" Nullable="false" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Name="Sarlaft" Type="String" Nullable="false" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Name="UltimaEvaluacion" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="identificationNumber" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="identificationType" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <Association Name="FK_Afiliacion_Cliente1">
+          <End Type="AfiliacionesSkandiaModel.Cliente" Role="Cliente" Multiplicity="1" />
+          <End Type="AfiliacionesSkandiaModel.Afiliacion" Role="Afiliacion" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cliente">
+              <PropertyRef Name="IdCliente" />
+            </Principal>
+            <Dependent Role="Afiliacion">
+              <PropertyRef Name="IdCliente" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="AfiliacionesSkandiaModelStoreContainer" CdmEntityContainer="AfiliacionesSkandiaEntities">
+          <EntitySetMapping Name="Afiliacion">
+            <EntityTypeMapping TypeName="AfiliacionesSkandiaModel.Afiliacion">
+              <MappingFragment StoreEntitySet="Afiliacion">
+                <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+                <ScalarProperty Name="IdCliente" ColumnName="IdCliente" />
+                <ScalarProperty Name="EstadoAfiliacion" ColumnName="EstadoAfiliacion" />
+                <ScalarProperty Name="IdAfiliacion" ColumnName="IdAfiliacion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Cliente">
+            <EntityTypeMapping TypeName="AfiliacionesSkandiaModel.Cliente">
+              <MappingFragment StoreEntitySet="Cliente">
+                <ScalarProperty Name="Discapacidad" ColumnName="Discapacidad" />
+                <ScalarProperty Name="Movil" ColumnName="Movil" />
+                <ScalarProperty Name="DireccionResidencia" ColumnName="DireccionResidencia" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="DepartamentoResidencia" ColumnName="DepartamentoResidencia" />
+                <ScalarProperty Name="CiudadResidencia" ColumnName="CiudadResidencia" />
+                <ScalarProperty Name="EstadoCivil" ColumnName="EstadoCivil" />
+                <ScalarProperty Name="Genero" ColumnName="Genero" />
+                <ScalarProperty Name="FechaNacimiento" ColumnName="FechaNacimiento" />
+                <ScalarProperty Name="LugarNacimiento" ColumnName="LugarNacimiento" />
+                <ScalarProperty Name="Egresos" ColumnName="Egresos" />
+                <ScalarProperty Name="Ingresos" ColumnName="Ingresos" />
+                <ScalarProperty Name="NumeroDocumento" ColumnName="NumeroDocumento" />
+                <ScalarProperty Name="TipoDocumento" ColumnName="TipoDocumento" />
+                <ScalarProperty Name="ApellidosCliente" ColumnName="ApellidosCliente" />
+                <ScalarProperty Name="NombresCliente" ColumnName="NombresCliente" />
+                <ScalarProperty Name="IdCliente" ColumnName="IdCliente" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Evaluacion">
+            <EntityTypeMapping TypeName="AfiliacionesSkandiaModel.Evaluacion">
+              <MappingFragment StoreEntitySet="Evaluacion">
+                <ScalarProperty Name="identificationType" ColumnName="identificationType" />
+                <ScalarProperty Name="identificationNumber" ColumnName="identificationNumber" />
+                <ScalarProperty Name="UltimaEvaluacion" ColumnName="UltimaEvaluacion" />
+                <ScalarProperty Name="Sarlaft" ColumnName="Sarlaft" />
+                <ScalarProperty Name="Cifin" ColumnName="Cifin" />
+                <ScalarProperty Name="IdEvaluacion" ColumnName="IdEvaluacion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

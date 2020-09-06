@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AfiliacionesSkandiaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="AfiliacionesSkandiaEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Afiliacion" EntityType="AfiliacionesSkandiaModel.Afiliacion" />
+    <EntitySet Name="Cliente" EntityType="AfiliacionesSkandiaModel.Cliente" />
+    <EntitySet Name="Evaluacion" EntityType="AfiliacionesSkandiaModel.Evaluacion" />
+    <AssociationSet Name="FK_Afiliacion_Cliente1" Association="AfiliacionesSkandiaModel.FK_Afiliacion_Cliente1">
+      <End Role="Cliente" EntitySet="Cliente" />
+      <End Role="Afiliacion" EntitySet="Afiliacion" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Afiliacion">
+    <Key>
+      <PropertyRef Name="IdAfiliacion" />
+    </Key>
+    <Property Name="IdAfiliacion" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EstadoAfiliacion" Type="Int32" Nullable="false" />
+    <Property Name="IdCliente" Type="Int32" Nullable="false" />
+    <Property Name="Observaciones" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Cliente" Relationship="AfiliacionesSkandiaModel.FK_Afiliacion_Cliente1" FromRole="Afiliacion" ToRole="Cliente" />
+  </EntityType>
+  <EntityType Name="Cliente">
+    <Key>
+      <PropertyRef Name="IdCliente" />
+    </Key>
+    <Property Name="IdCliente" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NombresCliente" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ApellidosCliente" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TipoDocumento" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NumeroDocumento" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="Ingresos" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Egresos" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="LugarNacimiento" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FechaNacimiento" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Genero" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="EstadoCivil" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CiudadResidencia" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DepartamentoResidencia" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DireccionResidencia" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Movil" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Discapacidad" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Afiliacion" Relationship="AfiliacionesSkandiaModel.FK_Afiliacion_Cliente1" FromRole="Cliente" ToRole="Afiliacion" />
+  </EntityType>
+  <EntityType Name="Evaluacion">
+    <Key>
+      <PropertyRef Name="IdEvaluacion" />
+    </Key>
+    <Property Name="IdEvaluacion" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Cifin" Type="String" Nullable="false" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="Sarlaft" Type="String" Nullable="false" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="UltimaEvaluacion" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="identificationNumber" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="identificationType" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <Association Name="FK_Afiliacion_Cliente1">
+    <End Type="AfiliacionesSkandiaModel.Cliente" Role="Cliente" Multiplicity="1" />
+    <End Type="AfiliacionesSkandiaModel.Afiliacion" Role="Afiliacion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="IdCliente" />
+      </Principal>
+      <Dependent Role="Afiliacion">
+        <PropertyRef Name="IdCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

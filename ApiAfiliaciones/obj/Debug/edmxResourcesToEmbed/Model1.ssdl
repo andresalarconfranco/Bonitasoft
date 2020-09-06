@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AfiliacionesSkandiaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Afiliacion">
+    <Key>
+      <PropertyRef Name="IdAfiliacion" />
+    </Key>
+    <Property Name="IdAfiliacion" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="EstadoAfiliacion" Type="int" Nullable="false" />
+    <Property Name="IdCliente" Type="int" Nullable="false" />
+    <Property Name="Observaciones" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Cliente">
+    <Key>
+      <PropertyRef Name="IdCliente" />
+    </Key>
+    <Property Name="IdCliente" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NombresCliente" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ApellidosCliente" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="TipoDocumento" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="NumeroDocumento" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="Ingresos" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Egresos" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="LugarNacimiento" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="FechaNacimiento" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Genero" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="EstadoCivil" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="CiudadResidencia" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="DepartamentoResidencia" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="DireccionResidencia" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Movil" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Discapacidad" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Evaluacion">
+    <Key>
+      <PropertyRef Name="IdEvaluacion" />
+    </Key>
+    <Property Name="IdEvaluacion" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Cifin" Type="char" MaxLength="1" Nullable="false" />
+    <Property Name="Sarlaft" Type="char" MaxLength="1" Nullable="false" />
+    <Property Name="UltimaEvaluacion" Type="date" Nullable="false" />
+    <Property Name="identificationNumber" Type="varchar" MaxLength="20" />
+    <Property Name="identificationType" Type="varchar" MaxLength="2" />
+  </EntityType>
+  <Association Name="FK_Afiliacion_Cliente1">
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="1" />
+    <End Role="Afiliacion" Type="Self.Afiliacion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="IdCliente" />
+      </Principal>
+      <Dependent Role="Afiliacion">
+        <PropertyRef Name="IdCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="AfiliacionesSkandiaModelStoreContainer">
+    <EntitySet Name="Afiliacion" EntityType="Self.Afiliacion" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Cliente" EntityType="Self.Cliente" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Evaluacion" EntityType="Self.Evaluacion" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Afiliacion_Cliente1" Association="Self.FK_Afiliacion_Cliente1">
+      <End Role="Cliente" EntitySet="Cliente" />
+      <End Role="Afiliacion" EntitySet="Afiliacion" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,48 @@
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\BonitaSoftApiCommunication\bin\Debug\netcoreapp2.2\BonitaSoftApiCommunication.deps.json
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\BonitaSoftApiCommunication\bin\Debug\netcoreapp2.2\BonitaSoftApiCommunication.runtimeconfig.json
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\BonitaSoftApiCommunication\bin\Debug\netcoreapp2.2\BonitaSoftApiCommunication.runtimeconfig.dev.json
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\BonitaSoftApiCommunication\bin\Debug\netcoreapp2.2\BonitaSoftApiCommunication.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\BonitaSoftApiCommunication\bin\Debug\netcoreapp2.2\BonitaSoftApiCommunication.pdb
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\BonitaSoftApiCommunication\obj\Debug\netcoreapp2.2\BonitaSoftApiCommunication.csprojAssemblyReference.cache
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\BonitaSoftApiCommunication\obj\Debug\netcoreapp2.2\BonitaSoftApiCommunication.csproj.CoreCompileInputs.cache
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\BonitaSoftApiCommunication\obj\Debug\netcoreapp2.2\BonitaSoftApiCommunication.RazorAssemblyInfo.cache
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\BonitaSoftApiCommunication\obj\Debug\netcoreapp2.2\BonitaSoftApiCommunication.RazorAssemblyInfo.cs
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\BonitaSoftApiCommunication\obj\Debug\netcoreapp2.2\BonitaSoftApiCommunication.AssemblyInfoInputs.cache
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\BonitaSoftApiCommunication\obj\Debug\netcoreapp2.2\BonitaSoftApiCommunication.AssemblyInfo.cs
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\BonitaSoftApiCommunication\obj\Debug\netcoreapp2.2\BonitaSoftApiCommunication.RazorTargetAssemblyInfo.cache
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\BonitaSoftApiCommunication\obj\Debug\netcoreapp2.2\BonitaSoftApiCommunication.dll
+D:\U\Procesos de Negocio\Final Entrega 1\Proyectos\BonitaSoftApiCommunication\BonitaSoftApiCommunication\obj\Debug\netcoreapp2.2\BonitaSoftApiCommunication.pdb
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\BonitaSoftApiCommunication\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\BonitaSoftApiCommunication\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\BonitaSoftApiCommunication\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\BonitaSoftApiCommunication\bin\Debug\netcoreapp2.2\BonitaSoftApiCommunication.deps.json
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\BonitaSoftApiCommunication\bin\Debug\netcoreapp2.2\BonitaSoftApiCommunication.runtimeconfig.json
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\BonitaSoftApiCommunication\bin\Debug\netcoreapp2.2\BonitaSoftApiCommunication.runtimeconfig.dev.json
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\BonitaSoftApiCommunication\bin\Debug\netcoreapp2.2\BonitaSoftApiCommunication.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\BonitaSoftApiCommunication\bin\Debug\netcoreapp2.2\BonitaSoftApiCommunication.pdb
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\BonitaSoftApiCommunication\obj\Debug\netcoreapp2.2\BonitaSoftApiCommunication.RazorAssemblyInfo.cache
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\BonitaSoftApiCommunication\obj\Debug\netcoreapp2.2\BonitaSoftApiCommunication.RazorAssemblyInfo.cs
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\BonitaSoftApiCommunication\obj\Debug\netcoreapp2.2\BonitaSoftApiCommunication.AssemblyInfoInputs.cache
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\BonitaSoftApiCommunication\obj\Debug\netcoreapp2.2\BonitaSoftApiCommunication.AssemblyInfo.cs
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\BonitaSoftApiCommunication\obj\Debug\netcoreapp2.2\BonitaSoftApiCommunication.RazorTargetAssemblyInfo.cache
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\BonitaSoftApiCommunication\obj\Debug\netcoreapp2.2\BonitaSoftApiCommunication.dll
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\BonitaSoftApiCommunication\obj\Debug\netcoreapp2.2\BonitaSoftApiCommunication.pdb
+C:\Users\Carlos\Documents\ProjectBonita\BonitaSoftApiCommunication\BonitaSoftApiCommunication\obj\Debug\netcoreapp2.2\BonitaSoftApiCommunication.csprojAssemblyReference.cache
+D:\U\Pika\Proyecto\AzureCode\BonitaSoftApiCommunication\obj\Debug\netcoreapp2.2\BonitaSoftApiCommunication.csproj.CoreCompileInputs.cache
+D:\U\Pika\Proyecto\AzureCode\BonitaSoftApiCommunication\obj\Debug\netcoreapp2.2\BonitaSoftApiCommunication.RazorAssemblyInfo.cache
+D:\U\Pika\Proyecto\AzureCode\BonitaSoftApiCommunication\obj\Debug\netcoreapp2.2\BonitaSoftApiCommunication.RazorAssemblyInfo.cs
+D:\U\Pika\Proyecto\AzureCode\BonitaSoftApiCommunication\obj\Debug\netcoreapp2.2\BonitaSoftApiCommunication.AssemblyInfoInputs.cache
+D:\U\Pika\Proyecto\AzureCode\BonitaSoftApiCommunication\obj\Debug\netcoreapp2.2\BonitaSoftApiCommunication.AssemblyInfo.cs
+D:\U\Pika\Proyecto\AzureCode\BonitaSoftApiCommunication\obj\Debug\netcoreapp2.2\BonitaSoftApiCommunication.dll
+D:\U\Pika\Proyecto\AzureCode\BonitaSoftApiCommunication\obj\Debug\netcoreapp2.2\BonitaSoftApiCommunication.pdb
+D:\U\Pika\Proyecto\AzureCode\BonitaSoftApiCommunication\bin\Debug\netcoreapp2.2\appsettings.Development.json
+D:\U\Pika\Proyecto\AzureCode\BonitaSoftApiCommunication\bin\Debug\netcoreapp2.2\appsettings.json
+D:\U\Pika\Proyecto\AzureCode\BonitaSoftApiCommunication\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+D:\U\Pika\Proyecto\AzureCode\BonitaSoftApiCommunication\bin\Debug\netcoreapp2.2\BonitaSoftApiCommunication.deps.json
+D:\U\Pika\Proyecto\AzureCode\BonitaSoftApiCommunication\bin\Debug\netcoreapp2.2\BonitaSoftApiCommunication.runtimeconfig.json
+D:\U\Pika\Proyecto\AzureCode\BonitaSoftApiCommunication\bin\Debug\netcoreapp2.2\BonitaSoftApiCommunication.runtimeconfig.dev.json
+D:\U\Pika\Proyecto\AzureCode\BonitaSoftApiCommunication\bin\Debug\netcoreapp2.2\BonitaSoftApiCommunication.dll
+D:\U\Pika\Proyecto\AzureCode\BonitaSoftApiCommunication\bin\Debug\netcoreapp2.2\BonitaSoftApiCommunication.pdb
+D:\U\Pika\Proyecto\AzureCode\BonitaSoftApiCommunication\obj\Debug\netcoreapp2.2\BonitaSoftApiCommunication.RazorTargetAssemblyInfo.cache
+D:\U\Pika\Proyecto\AzureCode\BonitaSoftApiCommunication\obj\Debug\netcoreapp2.2\BonitaSoftApiCommunication.genruntimeconfig.cache
+D:\U\Pika\Proyecto\AzureCode\BonitaSoftApiCommunication\obj\Debug\netcoreapp2.2\BonitaSoftApiCommunication.csprojAssemblyReference.cache

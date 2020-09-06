@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "N9LaIwdzNm2xmZqW8si9MuuYhzapkKfPrT+x6J7YXSNHh8C/xZyw4LKybv1hbnrUlhJijG+8vgf/Qq03wqOa1Q==",
+  "success": true,
+  "projectFilePath": "D:\\U\\Pika\\Proyecto\\Code\\bck\\BonitaSoftApiBusiness\\BonitaSoftApiBusiness.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Virko\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Virko\\.nuget\\packages\\restsharp\\106.6.10\\restsharp.106.6.10.nupkg.sha512"
+  ],
+  "logs": []
+}

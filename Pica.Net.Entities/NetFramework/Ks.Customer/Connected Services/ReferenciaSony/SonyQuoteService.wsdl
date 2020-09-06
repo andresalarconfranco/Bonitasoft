@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns0="http://servicios.SonyQuoteService.com/types/" xmlns:tns="http://servicios.SonyQuoteService.com/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" name="SonyQuoteService" targetNamespace="http://servicios.SonyQuoteService.com/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:soap11-enc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://servicios.SonyQuoteService.com/types/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" elementFormDefault="qualified" targetNamespace="http://servicios.SonyQuoteService.com/types/">
+      <xsd:complexType name="Item">
+        <xsd:sequence>
+          <xsd:element name="itemId" nillable="true" type="xsd:string" />
+          <xsd:element name="quantity" type="xsd:long" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="OrderSony">
+        <xsd:sequence>
+          <xsd:element name="orderSony_ID" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Quote">
+        <xsd:sequence>
+          <xsd:element name="supplierPrice" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="SonyQuotePriceServiceProcessInitRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="orderId" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="unbounded" name="items" type="tns:Item" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="SonyQuotePriceServiceProcessInitResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="result" type="tns:OrderSony" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="SonyQuotePriceServiceProcessEndRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="result" nillable="true" type="tns:OrderSony" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="SonyQuotePriceServiceProcessEndResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="result" nillable="true" type="tns:Quote" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:complexType name="cabeceraRequest">
+        <xsd:annotation>
+          <xsd:documentation>Referencia que contiene la información de las cabeceras usadas en Nueva EPS</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="identificador_solicitud" type="xsd:int">
+            <xsd:annotation>
+              <xsd:documentation>Identificador de la solicitud al servicio</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element minOccurs="1" maxOccurs="1" name="cliente_solicitud" type="xsd:string">
+            <xsd:annotation>
+              <xsd:documentation>Nombre del cliente que envía la solicitud al servicio</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="cabeceraResponse">
+        <xsd:sequence>
+          <xsd:element name="tiempo_respuesta" type="xsd:int">
+            <xsd:annotation>
+              <xsd:documentation>Tiempo que demora en responder el servicio en milisegundos</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="fault">
+        <xsd:annotation>
+          <xsd:documentation>Contiene la información para el manejo de mensajes fault en los servicios.
+    		</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="1" name="mensajeExcepcion" type="xsd:string">
+            <xsd:annotation>
+              <xsd:documentation>Mensaje de excepción presentado.</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:schema>
+  </types>
+  <message name="SonyQuotePriceServiceProcessInitRequestMessage">
+    <part name="payload" element="tns0:SonyQuotePriceServiceProcessInitRequest" />
+  </message>
+  <message name="SonyQuotePriceServiceProcessInitResponseMessage">
+    <part name="payload" element="tns0:SonyQuotePriceServiceProcessInitResponse" />
+  </message>
+  <message name="SonyQuotePriceServiceProcessEndRequestMessage">
+    <part name="payload" element="tns0:SonyQuotePriceServiceProcessEndRequest" />
+  </message>
+  <message name="SonyQuotePriceServiceProcessEndResponseMessage">
+    <part name="payload" element="tns0:SonyQuotePriceServiceProcessEndResponse" />
+  </message>
+  <message name="S_RequestHeader">
+    <part name="request_header" type="tns0:cabeceraRequest" />
+  </message>
+  <message name="S_ResponseHeader">
+    <part name="response_header" type="tns0:cabeceraResponse" />
+  </message>
+  <message name="S_Fault">
+    <part name="response_fault" type="tns0:fault" />
+  </message>
+  <portType name="SonyQuoteService">
+    <operation name="initiate">
+      <input message="tns:SonyQuotePriceServiceProcessInitRequestMessage" />
+      <output message="tns:SonyQuotePriceServiceProcessInitResponseMessage" />
+      <fault name="fault" message="tns:S_Fault" />
+    </operation>
+  </portType>
+  <portType name="SonyQuoteServiceCallback">
+    <operation name="onResult">
+      <input message="tns:SonyQuotePriceServiceProcessEndRequestMessage" />
+      <output message="tns:SonyQuotePriceServiceProcessEndResponseMessage" />
+      <fault name="fault" message="tns:S_Fault" />
+    </operation>
+  </portType>
+  <binding name="StockQuoteSoapBinding" type="tns:SonyQuoteService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="initiate">
+      <soap:operation soapAction="http://example.com/initiate" />
+      <input>
+        <soap:header message="tns:S_RequestHeader" part="request_header" use="literal" />
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:header message="tns:S_ResponseHeader" part="response_header" use="literal" />
+        <soap:body use="literal" />
+      </output>
+      <fault name="fault">
+        <soap:header message="tns:S_ResponseHeader" part="response_header" use="literal" />
+        <soap:fault use="literal" name="fault" namespace="" />
+      </fault>
+    </operation>
+  </binding>
+  <binding name="StockQuoteSoapBindingResult" type="tns:SonyQuoteServiceCallback">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="onResult">
+      <soap:operation soapAction="http://example.com/onResult" />
+      <input>
+        <soap:header message="tns:S_RequestHeader" part="request_header" use="literal" />
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:header message="tns:S_ResponseHeader" part="response_header" use="literal" />
+        <soap:body use="literal" />
+      </output>
+      <fault name="fault">
+        <soap:header message="tns:S_ResponseHeader" part="response_header" use="literal" />
+        <soap:fault use="literal" name="fault" namespace="" />
+      </fault>
+    </operation>
+  </binding>
+  <service name="SonyQuoteService">
+    <documentation>My first service</documentation>
+    <port name="SonyQuoteServiceSoapHttpPort" binding="tns:StockQuoteSoapBinding">
+      <soap:address location="http://example.com/stockquote/SonyQuoteServiceSoapHttpPort" />
+    </port>
+    <port name="SonyQuoteServiceSoapHttpPortResult" binding="tns:StockQuoteSoapBindingResult">
+      <soap:address location="http://example.com/stockquote/SonyQuoteServiceSoapHttpPort" />
+    </port>
+  </service>
+</definitions>

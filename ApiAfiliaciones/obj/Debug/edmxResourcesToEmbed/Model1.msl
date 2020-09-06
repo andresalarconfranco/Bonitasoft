@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AfiliacionesSkandiaModelStoreContainer" CdmEntityContainer="AfiliacionesSkandiaEntities">
+    <EntitySetMapping Name="Afiliacion">
+      <EntityTypeMapping TypeName="AfiliacionesSkandiaModel.Afiliacion">
+        <MappingFragment StoreEntitySet="Afiliacion">
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="IdCliente" ColumnName="IdCliente" />
+          <ScalarProperty Name="EstadoAfiliacion" ColumnName="EstadoAfiliacion" />
+          <ScalarProperty Name="IdAfiliacion" ColumnName="IdAfiliacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cliente">
+      <EntityTypeMapping TypeName="AfiliacionesSkandiaModel.Cliente">
+        <MappingFragment StoreEntitySet="Cliente">
+          <ScalarProperty Name="Discapacidad" ColumnName="Discapacidad" />
+          <ScalarProperty Name="Movil" ColumnName="Movil" />
+          <ScalarProperty Name="DireccionResidencia" ColumnName="DireccionResidencia" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="DepartamentoResidencia" ColumnName="DepartamentoResidencia" />
+          <ScalarProperty Name="CiudadResidencia" ColumnName="CiudadResidencia" />
+          <ScalarProperty Name="EstadoCivil" ColumnName="EstadoCivil" />
+          <ScalarProperty Name="Genero" ColumnName="Genero" />
+          <ScalarProperty Name="FechaNacimiento" ColumnName="FechaNacimiento" />
+          <ScalarProperty Name="LugarNacimiento" ColumnName="LugarNacimiento" />
+          <ScalarProperty Name="Egresos" ColumnName="Egresos" />
+          <ScalarProperty Name="Ingresos" ColumnName="Ingresos" />
+          <ScalarProperty Name="NumeroDocumento" ColumnName="NumeroDocumento" />
+          <ScalarProperty Name="TipoDocumento" ColumnName="TipoDocumento" />
+          <ScalarProperty Name="ApellidosCliente" ColumnName="ApellidosCliente" />
+          <ScalarProperty Name="NombresCliente" ColumnName="NombresCliente" />
+          <ScalarProperty Name="IdCliente" ColumnName="IdCliente" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Evaluacion">
+      <EntityTypeMapping TypeName="AfiliacionesSkandiaModel.Evaluacion">
+        <MappingFragment StoreEntitySet="Evaluacion">
+          <ScalarProperty Name="identificationType" ColumnName="identificationType" />
+          <ScalarProperty Name="identificationNumber" ColumnName="identificationNumber" />
+          <ScalarProperty Name="UltimaEvaluacion" ColumnName="UltimaEvaluacion" />
+          <ScalarProperty Name="Sarlaft" ColumnName="Sarlaft" />
+          <ScalarProperty Name="Cifin" ColumnName="Cifin" />
+          <ScalarProperty Name="IdEvaluacion" ColumnName="IdEvaluacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
